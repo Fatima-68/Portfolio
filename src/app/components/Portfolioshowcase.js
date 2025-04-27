@@ -37,9 +37,9 @@ export default function PortfolioShowcase() {
         const data = await res.json();
   
         const filteredData = data.filter(
-          (repo) => repo.name !== "Fatima-68",
-          (repo) => repo.name !=="Portfolio" // don't show profile repo
+          (repo) => repo.name !== "Fatima-68" && repo.name !== "Portfolio"
         );
+        
   
         const projectsWithImages = filteredData.map((repo) => ({
           title: repo.name.replace(/_/g, " "),
