@@ -22,7 +22,9 @@ const projectImages = {
   "Daisy_or_Dandalions_using_CNN": "/images (6).png",
   "Food_recipes_web_Next.js": "/images (7).png",
   "Blog_creating_web_Next.js_supabase": "/images (8).jpeg",
-  "blogs_categories_web_site":"/images (12).png"
+  "blogs_categories_web_site":"/images (12).png",
+  "Weather-app-React":"/images(13).jpeg",
+  "Starwars-React-app":"/images(14).jpeg"
 };
 
 export default function PortfolioShowcase() {

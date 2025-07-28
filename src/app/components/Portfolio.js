@@ -37,13 +37,18 @@ const projects = [
     link: "https://github.com/Fatima-68/Blog_creating_web_Next.js_supabase.git",
     desc: "Blog site with Supabase backend and ShadCN UI.",
   },
+   {
+    title: "WeatherNow – React + Tailwind CSS Weather App",
+    link: "https://github.com/Fatima-68/Weather-app-React.git",
+    desc: "A responsive weather application to view live weather data, including temperature, humidity etc.",
+  },
 ];
 
 function Portfolio() {
   const [showProjects, setShowProjects] = useState(false);
 
   return (
-    <div className="min-h-[45vh] mt-[-110px] flex items-center justify-center border-2 text-white px-7">
+    <div className="min-h-[45vh] mt-[-20px] flex items-center justify-center border-2 text-white px-7">
       <div className="max-w-5xl w-full text-center">
         <h2 className="text-4xl font-bold text-pink-500 mb-6">About Me</h2>
         <p className="text-lg leading-relaxed mb-6">
@@ -56,7 +61,7 @@ function Portfolio() {
 
         <div className="flex justify-center gap-6 mb-10 flex-wrap">
           <a
-            href="/Fatima_Resume.docx"
+            href="/Fatima-Saleem-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border-2 px-6 py-3 bg-[#0b1120] hover:bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition"

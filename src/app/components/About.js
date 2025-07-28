@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 function About() {
   return (
-<div className=' min-h-screen mt-[-20] pt-6'>
+<div className=' min-h-screen mt-[-110] pt-6'>
   <div className="max-w-4xl w-full text-white flex flex-col items-start justify-items-start gap-6">
     <h1 className="text-5xl font-bold text-pink-500">Fatima Saleem</h1>
     <h2 className="text-3xl text-gray-200">Aspiring Data Analyst & Machine Learning Enthusiast</h2>
